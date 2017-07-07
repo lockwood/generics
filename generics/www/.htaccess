@@ -1,0 +1,19 @@
+RewriteEngine on
+RewriteEngine On
+RewriteCond $1 !^(index\.php|images|css|js|fonts|robots\.txt|showpic\.php|favicon\.ico|favicon\.gif|captcha|newfile\.php|editor|google6eb440cd6f9c009d\.html|rss\.asp|link\.asp|pubhols\.asp|dst\.asp|BingSiteAuth\.xml)
+RewriteRule ^(.*)$ /index.php/$1 [L]	
+Redirect 301 /index.html /
+Redirect 301 /p1.html /home
+Redirect 301 /p2.html /testimonials
+Redirect 301 /p3.html /about
+Redirect 301 /p4.html /booking-service
+Redirect 301 /p5.html /case-study-dorney-self-catering
+Redirect 301 /p6.html /features
+Redirect 301 /p7.html /contact
+Redirect 301 /p8.php /login
+Redirect 301 /p9.html /how-it-works
+Redirect 301 /p10.html /quality-management
+<ifModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</ifModule>
