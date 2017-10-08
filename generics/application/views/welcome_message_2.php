@@ -279,7 +279,7 @@ if (isset($reviews) && is_array($reviews)) {
 <?php 
 if (isset($pagemenu[0])) {
 ?>
-				<div class="col span_1_of_5">
+				<div class="col span_1_of_4">
 					<a href="/<?=$pagemenu[0]['link']?>/"><img src="images/207_<?=$pagemenu[0]['image_name']?>.jpg" alt=" <?=$pagemenu[0]['image_alt']?>" class="pagegridimage"></a>
 					<h2><a href="/<?=$pagemenu[0]['link']?>/"> <?=$pagemenu[0]['image_alt']?></a></h2>
 					<p><?=$pagemenu[0]['text']?></p>
@@ -288,7 +288,7 @@ if (isset($pagemenu[0])) {
 <?php 
 } else {
 ?>
-				<div class="col span_1_of_5">
+				<div class="col span_1_of_4">
 					<a href="/cottage-one/"><img src="images/207_019.jpg" alt=" Cottages" class="pagegridimage"></a>
 					<h2><a href="/cottage-one/"> Cottages</a></h2>
 					<p>Five fully equipped cottages sleeping 2 - 5 persons, each making a cosy home from home for families and professionals. Tastefully renovated barns in the grounds of a 16th century farmhouse
@@ -300,7 +300,7 @@ in a countryside location, close to Maidenhead town.
 }
 if (isset($pagemenu[1])) {
 ?>
-				<div class="col span_1_of_5">
+				<div class="col span_1_of_4">
 					<a href="/<?=$pagemenu[1]['link']?>/"><img src="images/207_<?=$pagemenu[1]['image_name']?>.jpg" alt=" <?=$pagemenu[1]['image_alt']?>" class="pagegridimage"></a>
 					<h2><a href="/<?=$pagemenu[1]['link']?>/"> <?=$pagemenu[1]['image_alt']?></a></h2>
 					<p><?=$pagemenu[1]['text']?></p>
@@ -309,7 +309,7 @@ if (isset($pagemenu[1])) {
 <?php 
 } else {
 ?>
-				<div class="col span_1_of_5">
+				<div class="col span_1_of_4">
 					<a href="/westwing/"><img src="images/207_5579.jpg" alt="West Wing" class="pagegridimage"></a>
 					<h2><a href="/westwing/">West Wing</a></h2>
 					<p>The West Wing is a self contained three bedroom self catering suite. It has its own private entrance, and fully equipped kitchen/dining room.</p>
@@ -317,6 +317,7 @@ if (isset($pagemenu[1])) {
 				</div>
 <?php 
 }
+/*
 if (isset($pagemenu[2])) {
 ?>
 				<div class="col span_1_of_5">
@@ -336,9 +337,10 @@ if (isset($pagemenu[2])) {
 				</div>
 <?php 
 }
+// */
 if (isset($pagemenu[3])) {
 ?>
-				<div class="col span_1_of_5">
+				<div class="col span_1_of_4">
 					<a href="/<?=$pagemenu[3]['link']?>/"><img src="images/207_<?=$pagemenu[3]['image_name']?>.jpg" alt=" <?=$pagemenu[3]['image_alt']?>" class="pagegridimage"></a>
 					<h2><a href="/<?=$pagemenu[3]['link']?>/"> <?=$pagemenu[3]['image_alt']?></a></h2>
 					<p><?=$pagemenu[3]['text']?></p>
@@ -347,7 +349,7 @@ if (isset($pagemenu[3])) {
 <?php 
 } else {
 ?>
-				<div class="col span_1_of_5">
+				<div class="col span_1_of_4">
 					<a href="/local/"><img src="images/207_9001.jpg" alt="Things to do" class="pagegridimage"></a>
 					<h2><a href="/local/">Things to do</a></h2>
 					<p>We are an ideal base from which to visit Legoland and Windsor Castle, or explore the beautiful Thames Path on foot or by bicycle.</p>
@@ -357,7 +359,7 @@ if (isset($pagemenu[3])) {
 }
 if (isset($pagemenu[4])) {
 ?>
-				<div class="col span_1_of_5">
+				<div class="col span_1_of_4">
 					<a href="/<?=$pagemenu[4]['link']?>/"><img src="images/207_<?=$pagemenu[4]['image_name']?>.jpg" alt=" <?=$pagemenu[4]['image_alt']?>" class="pagegridimage"></a>
 					<h2><a href="/<?=$pagemenu[4]['link']?>/"> <?=$pagemenu[4]['image_alt']?></a></h2>
 					<p><?=$pagemenu[4]['text']?></p>
@@ -366,7 +368,7 @@ if (isset($pagemenu[4])) {
 <?php 
 } else {
 ?>
-				<div class="col span_1_of_5">
+				<div class="col span_1_of_4">
 					<a href="/booking/"><img src="images/207_013.jpg" alt="Make a booking" class="pagegridimage"></a>
 					<h2><a href="/booking/">Make a booking</a></h2>
 					<p>Check availability and book online now using our secure booking form.</p>
