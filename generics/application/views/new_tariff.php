@@ -65,7 +65,7 @@ $today = date('Y-m-d');
   </tr>
   <?php/*$chalet1_rate = 60; // 86 for Olympics$chalet2_rate = 100; // 172 for Olympics$chalet3_rate = 65; // 114 for Olympics$southlands_rate = 110; // 172 for Olympics$ww_rate = 125; // 214 for Olympics// peak rates re-instated for 2014-15$chalet1_rate_p = 70; // 86 for Olympics$chalet2_rate_p = 120; // 172 for Olympics$chalet3_rate_p = 75; // 114 for Olympics$southlands_rate_p = 135; // 172 for Olympics$ww_rate_p = 140; // 214 for Olympics// */  
 $low_array = array(1=>60,2=>120,3=>75,4=>75,5=>150,9=>140,10=>75);
-$high_array = array(1=>70,2=>140,3=>85,4=>85,5=>170,9=>165,10=>85);
+$high_array = array(1=>70,2=>120,3=>85,4=>85,5=>170,9=>140,10=>85);
 foreach ($resourcearray as $propertyrow) {
 //    foreach ($pricearray as $pricerow) {
 //        if ($pricerow['price_code'] == $propertyrow['price_code']) {
@@ -78,7 +78,7 @@ foreach ($resourcearray as $propertyrow) {
   <tr>
     <td colspan="5">&nbsp;</td>
   </tr>
-  <tr>    <td colspan="5"><b>*</b>Peak&nbsp;rate&nbsp;periods:<br/>12.06.2017&nbsp;-&nbsp;07.09.2017<br/>21.12.2017&nbsp;-&nbsp;05.01.2018<br/>18.06.2018&nbsp;-&nbsp;09.09.2018<br/>19.12.2018&nbsp;-&nbsp;06.01.2019<br/>Certain summer weeks individually priced</td>  </tr>  <tr>
+  <tr>    <td colspan="5"><b>*</b>Peak&nbsp;rate&nbsp;periods:<br/>18.06.2018&nbsp;-&nbsp;09.09.2018<br/>19.12.2018&nbsp;-&nbsp;06.01.2019<br/></td>  </tr>  <tr>
     <td colspan="5">Self Catering Prices include VAT and Service, towels, linen, heating, lighting and weekly cleaning. One week minimum let.<br/><br/>
 Pets &pound;5.00 per night per pet.</td>
   </tr>
